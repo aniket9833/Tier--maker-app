@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tier Maker</h1>
+    <form>
+        <label for="tier">Tier:</label>
+        <input type="text" id="tier" name="tier" placeholder="Give the tier name...">
+        <button type="submit" id="submit" class="submitBtn">Add</button>
+    </form>
+    <hr>
+    <form id="image-form">
+        <label for="image-item">Image:</label>
+        <input type="text" id="image-item" name="item" placeholder="Give the image url...">
+        <button type="submit" id="submitImage" class="submitBtn">Add</button>
+    </form>
+    <hr>
+    <section id="tier-list-section">
+      
+    </section>
+    <section id="non-tier-section">
+        <div class="item-container" draggable="true">
+            <img src="https://i.pinimg.com/564x/85/8c/7f/858c7ff7c77c6f2a5ce4bafd791d5957.jpg" alt="">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
